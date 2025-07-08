@@ -56,7 +56,11 @@ La idea base es el popular juego Angry Birds, donde se lanzan pájaros para dest
 Aquí, Don Pedro debe alimentar a sus osos hambrientos que se encuentran al otro lado del río, muertos de hambre, lanzándoles
 diferentes alimentos mediante una honda.
 
-Pronto se tendrá una versión más actualizada para Python 3.x.
+Se implementó un ambiente físico basado en coordenadas esféricas desde la honda, utilizando la ecuación de itinerario para actualizar en cada instante de tiempo $t$ la posición de los alimentos y detectar su posible colisión con los osos.
+Ecuación de itinerario:
+$$x(t) = x_0 + v_0 t + \frac{1}{2} a t^2$$
+
+En algún momento se tendrá una versión más actualizada para Python 3.x.
 
 
 ## Antes de utilizar el juego
@@ -92,3 +96,30 @@ Esto puede realizarse con el comando `python Modelos_Visualizacion.py`
 - Left: Cambiar al objeto anterior
 - Q: Salir del visualizador
 
+### Modelos
+
+Se crearon tres clases principales de modelos: Alimento, Oso y Honda.
+
+#### Alimento
+
+Se trabajó con 6 alimentos diferentes.
+
+1. Bistec. Se importó desde dos archivos en STL subidos por el usuario MakerBot, de nombre «meat.stl» para la parte de la carne, y de nombre «fat.stl» para la
+grasa.
+2. Chocolate. Se implementó desde un fichero STL de nombre «chocoplate.stl», subido por el usuario Tosh.
+3. Mani. Se importó desde el archivo STL de nombre «peanut 2.stl» del usuario WilliamAAdams.
+4. Naranja. Se dibujó a partir de 2 esferas GLUT, una más grande para el pomo y otra más pequeña para la parte inferior, además de un cilindro dibujado «a mano» en la parte superior para representar el rabillo1.
+5. Pera. Se dibujó a partir de una esfera GLUT para el pomo y otra deformada hacia el eje Y para representar la parte más cercana al rabillo, que se representó por medio de dos cilindros, uno vertical y otro ladeado.
+6. Pescado. Se implementó desde un archivo STL de nombre «concrete fish.stl», subido por el usuario pmoews.
+
+#### Oso
+
+Los 4 osos fueron dibujados mediante métodos distintos.
+1. OsoGLUT. Oso dibujado mediante figuras de GLUT. Fue desarrollado con un cubo para cada pata; 7 esferas, una para la cabeza, otra para el tronco, otra para la parte posterior del tronco, otra para la cadera, dos para las orejas y una para la nariz; 2 icosaedros, uno para cada ojo; y un cono para el hocico.
+2. OsoImportado. Oso dibujado a partir de un fichero STL en binario, llamado «Bear t.stl», subido por el usuario Yahho Japan.
+3. 3. OsoMano. Este oso fue dibujado especificando los puntos a mano. Para ello, se especificaron los puntos y las normales de cubos y cilindros, de ancho 1 y centrados en el origen, de tal manera de poder desplazarlos y escalarlos de una manera no tan difícil. Así, se ocuparon 8 cubos, uno para la cabeza, otros dos para las orejas, otro para el hocico, y cuatro más para las patas; y se ocupó un cilindro para hacer el cuerpo del oso.
+4. OsoPaddington. El cuarto oso debıía ser dibujado mediante alguno de los métodos mencionados anteriormente, o bien realizando una mezcla. De esta forma, se escogió importarlo de un archivo STL, y se seleccionó al oso Paddington. Así, se importó desde los archivos STL de texto subidos por el usuario Mag-net, «Paddington Bear.stl», que contenía el cuerpo, y «Paddington Bear Suitcase.stl», que contenía la mano izquierda junto con la maleta.
+
+#### Honda
+
+La honda fue hecha a partir de tres cilindros del mismo color, que se pusieron en forma de Y. Su método principal consistió en `getPos`, un método que retornaba la posición donde ubicar los alimentos para ser lanzados desde allí.
