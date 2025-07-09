@@ -11,7 +11,7 @@ food with a sling.
 A physical environment based on spherical coordinates was implemented, starting from the slingshot. This environment uses the trajectory equation to update the position of the food items at each time instant t and to detect their possible collision with the bears.
 
 <div align="center">
-  <img src="Imágenes/Grabación_1_sin_sol.gif" width="300" alt="Gamplay experience">
+  <img src="Imágenes/Grabación_1_sin_sol.gif" height="300" alt="Gamplay experience">
 </div>
 
 Trajectory Equation:
@@ -101,6 +101,8 @@ The slingshot was made from three cylinders of the same color, arranged in a Y-s
   <img src="Imágenes/Honda.png" height="200" alt="Slingshot">
 </div>
 
+
+
 # [ES] Angry Bears
 
 Este es un juego en 3D realizado en Python 2.7 durante el curso «Modelación y computación gráfica».
@@ -114,7 +116,7 @@ diferentes alimentos mediante una honda.
 Se implementó un ambiente físico basado en coordenadas esféricas desde la honda, utilizando la ecuación de itinerario para actualizar en cada instante de tiempo $t$ la posición de los alimentos y detectar su posible colisión con los osos.
 
 <div align="center">
-  <img src="Imágenes/Grabación_1_sin_sol.gif" width="300" alt="Experiencia de juego">
+  <img src="Imágenes/Grabación_1_sin_sol.gif" height="300" alt="Experiencia de juego">
 </div>
 
 Ecuación de itinerario:
