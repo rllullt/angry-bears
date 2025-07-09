@@ -10,6 +10,10 @@ food with a sling.
 
 A physical environment based on spherical coordinates was implemented, starting from the slingshot. This environment uses the trajectory equation to update the position of the food items at each time instant t and to detect their possible collision with the bears.
 
+<div align="center">
+  <img src="Imágenes/Grabación_1_sin_sol.gif" width="300" alt="Gamplay experience">
+</div>
+
 Trajectory Equation:
 
 $$x(t) = x_0 + v_0 t + \frac{1}{2} a t^2$$
@@ -108,6 +112,10 @@ Aquí, Don Pedro debe alimentar a sus osos hambrientos que se encuentran al otro
 diferentes alimentos mediante una honda.
 
 Se implementó un ambiente físico basado en coordenadas esféricas desde la honda, utilizando la ecuación de itinerario para actualizar en cada instante de tiempo $t$ la posición de los alimentos y detectar su posible colisión con los osos.
+
+<div align="center">
+  <img src="Imágenes/Grabación_1_sin_sol.gif" width="300" alt="Experiencia de juego">
+</div>
 
 Ecuación de itinerario:
 
