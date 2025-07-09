@@ -11,10 +11,12 @@ food with a sling.
 A physical environment based on spherical coordinates was implemented, starting from the slingshot. This environment uses the trajectory equation to update the position of the food items at each time instant t and to detect their possible collision with the bears.
 
 Trajectory Equation:
+
 $$x(t) = x_0 + v_0 t + \frac{1}{2} a t^2$$
 
 Coordinates used (food is located at the position marked with X):
-![Cartesian Axis](Imágenes/EjesCartesianos2.png)
+
+<img src="Imágenes/EjesCartesianos2.png" width="300" alt="Cartesian Axis">
 
 A more updated version for Python 3.x will be available at some point.
 
