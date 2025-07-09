@@ -16,7 +16,7 @@ $$x(t) = x_0 + v_0 t + \frac{1}{2} a t^2$$
 
 Coordinates used (food is located at the position marked with X):
 
-<img src="Imágenes/EjesCartesianos2.png" width="300" alt="Cartesian Axis">
+<img src="Imágenes/EjesCartesianos2.png" width="300" alt="Cartesian Axis" class="center">
 
 A more updated version for Python 3.x will be available at some point.
 
