@@ -1,4 +1,4 @@
-# [EN] Angry Bears
+# [EN] Hungry Bears
 
 This is a 3D game made with Python 2.7 during the course “Modelation and Graphic Computation”.
 Graphics are made with OpenGL.
@@ -103,7 +103,7 @@ The slingshot was made from three cylinders of the same color, arranged in a Y-s
 
 
 
-# [ES] Angry Bears
+# [ES] Hungry Bears
 
 Este es un juego en 3D realizado en Python 2.7 durante el curso «Modelación y computación gráfica».
 Los gráficos están realizados con OpenGL.
