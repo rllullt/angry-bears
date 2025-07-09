@@ -14,7 +14,7 @@ Trajectory Equation:
 $$x(t) = x_0 + v_0 t + \frac{1}{2} a t^2$$
 
 Coordinates used (food is located at the position marked with X):
-![Cartesian Axis](EjesCartesianos2.png)
+![Cartesian Axis](Imágenes/EjesCartesianos2.png)
 
 A more updated version for Python 3.x will be available at some point.
 
@@ -68,7 +68,7 @@ Six different food items were worked with:
 5. Pear: This was drawn using one GLUT sphere for the main body and another deformed along the Y-axis to represent the part closest to the stem, which was represented by two cylinders, one vertical and one tilted.
 6. Fish: This was implemented from an STL file named "concrete fish.stl," uploaded by the user pmoews.
 
-![Different foods used](Alimentos.png)
+![Different foods used](Imágenes/Alimentos.png)
 
 #### Oso (Bear)
 
@@ -79,13 +79,13 @@ The four bears were drawn using different methods:
 3. OsoMano (HandDrawnBear): This bear was drawn by manually specifying points. For this, the points and normals of cubes and cylinders, with a width of 1 and centered at the origin, were specified to allow for easier displacement and scaling. Thus, eight cubes were used—one for the head, two for the ears, one for the snout, and four for the paws—and one cylinder was used for the bear's body.
 4. OsoPaddington (PaddingtonBear): The fourth bear was to be drawn using one of the aforementioned methods, or a mixture thereof. It was chosen to be imported from an STL file, and Paddington Bear was selected. It was imported from text-based STL files uploaded by the user Mag-net: "Paddington Bear.stl," which contained the body, and "Paddington Bear Suitcase.stl," which contained the left hand along with the suitcase.
 
-![Bears](Bears.png)
+![Bears](Imágenes/Osos.png)
 
 #### Honda (Slingshot)
 
 The slingshot was made from three cylinders of the same color, arranged in a Y-shape. Its main method was getPos, which returned the position to place food items to be launched from there.
 
-![Slingshot](Honda.png)
+![Slingshot](Imágenes/Honda.png)
 
 
 # [ES] Angry Bears
@@ -104,7 +104,7 @@ Ecuación de itinerario:
 $$x(t) = x_0 + v_0 t + \frac{1}{2} a t^2$$
 
 Coordinates utilizadas (la comida se ubica en la posición marcada con X):
-![Cartesian Axis](EjesCartesianos2.png)
+![Cartesian Axis](Imágenes/EjesCartesianos2.png)
 
 En algún momento se tendrá una versión más actualizada para Python 3.x.
 
@@ -159,6 +159,8 @@ grasa.
 5. Pera. Se dibujó a partir de una esfera GLUT para el pomo y otra deformada hacia el eje Y para representar la parte más cercana al rabillo, que se representó por medio de dos cilindros, uno vertical y otro ladeado.
 6. Pescado. Se implementó desde un archivo STL de nombre «concrete fish.stl», subido por el usuario pmoews.
 
+![Diferentes alimentos utilizados](Imágenes/Alimentos.png)
+
 #### Oso
 
 Los 4 osos fueron dibujados mediante métodos distintos.
@@ -167,6 +169,10 @@ Los 4 osos fueron dibujados mediante métodos distintos.
 3. OsoMano. Este oso fue dibujado especificando los puntos a mano. Para ello, se especificaron los puntos y las normales de cubos y cilindros, de ancho 1 y centrados en el origen, de tal manera de poder desplazarlos y escalarlos de una manera no tan difícil. Así, se ocuparon 8 cubos, uno para la cabeza, otros dos para las orejas, otro para el hocico, y cuatro más para las patas; y se ocupó un cilindro para hacer el cuerpo del oso.
 4. OsoPaddington. El cuarto oso debıía ser dibujado mediante alguno de los métodos mencionados anteriormente, o bien realizando una mezcla. De esta forma, se escogió importarlo de un archivo STL, y se seleccionó al oso Paddington. Así, se importó desde los archivos STL de texto subidos por el usuario Mag-net, «Paddington Bear.stl», que contenía el cuerpo, y «Paddington Bear Suitcase.stl», que contenía la mano izquierda junto con la maleta.
 
+![Osos](Imágenes/Osos.png)
+
 #### Honda
 
 La honda fue hecha a partir de tres cilindros del mismo color, que se pusieron en forma de Y. Su método principal consistió en `getPos`, un método que retornaba la posición donde ubicar los alimentos para ser lanzados desde allí.
+
+![Honda](Imágenes/Honda.png)
